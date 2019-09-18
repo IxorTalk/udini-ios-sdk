@@ -1,0 +1,6 @@
+framework module UdiniSDK {
+  umbrella header "UdiniSDK.h"
+
+  export *
+  module * { export * }
+}
