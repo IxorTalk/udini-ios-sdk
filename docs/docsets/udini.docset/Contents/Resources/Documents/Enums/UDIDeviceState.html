@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>UDIDeviceState Enumeration Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Enum/UDIDeviceState" class="dashAnchor"></a>
+    <a title="UDIDeviceState Enumeration Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">udini 1.0 Docs</a> (30% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">udini Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        UDIDeviceState Enumeration Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/UDIApp.html">UDIApp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIBadge.html">UDIBadge</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIBeacon.html">UDIBeacon</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDICompany.html">UDICompany</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIConstraint.html">UDIConstraint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIDevice.html">UDIDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIDeviceAction.html">UDIDeviceAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIOptions.html">UDIOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIOrganisation.html">UDIOrganisation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIServiceRequests.html">UDIServiceRequests</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIUser.html">UDIUser</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kUdiniProductionEnvironment">kUdiniProductionEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kUdiniStagingEnvironment">kUdiniStagingEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kUdiniTestEnvironment">kUdiniTestEnvironment</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/UDIDeviceState.html">UDIDeviceState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/UDIFeedbackDelegate.html">UDIFeedbackDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>UDIDeviceState</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="n">NS_ENUM</span><span class="p">(</span><span class="n">NSUInteger</span><span class="p">,</span> <span class="n">UDIDeviceState</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">kConnecting</span> <span class="n">NS_SWIFT_NAME</span><span class="p">(</span><span class="n">connecting</span><span class="p">),</span>
+    <span class="n">kConnected</span> <span class="n">NS_SWIFT_NAME</span><span class="p">(</span><span class="n">connected</span><span class="p">),</span>
+    <span class="n">kDiscoveringServices</span>  <span class="n">NS_SWIFT_NAME</span><span class="p">(</span><span class="n">discoveringServices</span><span class="p">),</span>
+    <span class="n">kDiscoveredServices</span> <span class="n">NS_SWIFT_NAME</span><span class="p">(</span><span class="n">discoveredServices</span><span class="p">),</span>
+    <span class="n">kDiscoveringCharacteristics</span> <span class="n">NS_SWIFT_NAME</span><span class="p">(</span><span class="n">discoveringCharacteristics</span><span class="p">),</span>
+    <span class="n">kDiscoveredCharacteristics</span> <span class="n">NS_SWIFT_NAME</span><span class="p">(</span><span class="n">discoveredCharacteristics</span><span class="p">),</span>
+
+    <span class="n">kPerformingAction</span> <span class="n">NS_SWIFT_NAME</span><span class="p">(</span><span class="n">performingAction</span><span class="p">),</span>
+    <span class="n">kActionPerfomed</span> <span class="n">NS_SWIFT_NAME</span><span class="p">(</span><span class="n">actionPerfomed</span><span class="p">),</span>
+
+    <span class="c1">// REMOVE: kResponseNotification NS_SWIFT_NAME(responseNotification),
+</span>
+    <span class="n">kDisconnecting</span> <span class="n">NS_SWIFT_NAME</span><span class="p">(</span><span class="n">disconnecting</span><span class="p">),</span>
+    <span class="n">kDisconnected</span> <span class="n">NS_SWIFT_NAME</span><span class="p">(</span><span class="n">disconnected</span><span class="p">)</span>
+<span class="p">}</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@UDIDeviceState@kConnecting"></a>
+                    <a name="//apple_ref/objc/Case/kConnecting" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@UDIDeviceState@kConnecting">kConnecting</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">kConnecting</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@UDIDeviceState@kConnected"></a>
+                    <a name="//apple_ref/objc/Case/kConnected" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@UDIDeviceState@kConnected">kConnected</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">kConnected</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@UDIDeviceState@kDiscoveringServices"></a>
+                    <a name="//apple_ref/objc/Case/kDiscoveringServices" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@UDIDeviceState@kDiscoveringServices">kDiscoveringServices</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">kDiscoveringServices</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@UDIDeviceState@kDiscoveredServices"></a>
+                    <a name="//apple_ref/objc/Case/kDiscoveredServices" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@UDIDeviceState@kDiscoveredServices">kDiscoveredServices</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">kDiscoveredServices</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@UDIDeviceState@kDiscoveringCharacteristics"></a>
+                    <a name="//apple_ref/objc/Case/kDiscoveringCharacteristics" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@UDIDeviceState@kDiscoveringCharacteristics">kDiscoveringCharacteristics</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">kDiscoveringCharacteristics</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@UDIDeviceState@kDiscoveredCharacteristics"></a>
+                    <a name="//apple_ref/objc/Case/kDiscoveredCharacteristics" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@UDIDeviceState@kDiscoveredCharacteristics">kDiscoveredCharacteristics</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">kDiscoveredCharacteristics</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@UDIDeviceState@kPerformingAction"></a>
+                    <a name="//apple_ref/objc/Case/kPerformingAction" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@UDIDeviceState@kPerformingAction">kPerformingAction</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">kPerformingAction</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@UDIDeviceState@kActionPerfomed"></a>
+                    <a name="//apple_ref/objc/Case/kActionPerfomed" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@UDIDeviceState@kActionPerfomed">kActionPerfomed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">kActionPerfomed</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@UDIDeviceState@kDisconnecting"></a>
+                    <a name="//apple_ref/objc/Case/kDisconnecting" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@UDIDeviceState@kDisconnecting">kDisconnecting</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">kDisconnecting</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@E@UDIDeviceState@kDisconnected"></a>
+                    <a name="//apple_ref/objc/Case/kDisconnected" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@E@UDIDeviceState@kDisconnected">kDisconnected</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">kDisconnected</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="https://ixortalk.com" target="_blank" rel="external">IxorTalk</a>. All rights reserved. (Last updated: 2019-08-14)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.10.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

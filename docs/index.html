@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>udini  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="udini  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">udini 1.0 Docs</a> (30% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">udini Reference</a>
+        <img id="carat" src="img/carat.png" />
+        udini  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/UDIApp.html">UDIApp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/UDIBadge.html">UDIBadge</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/UDIBeacon.html">UDIBeacon</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/UDICompany.html">UDICompany</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/UDIConstraint.html">UDIConstraint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/UDIDevice.html">UDIDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/UDIDeviceAction.html">UDIDeviceAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/UDIOptions.html">UDIOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/UDIOrganisation.html">UDIOrganisation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/UDIServiceRequests.html">UDIServiceRequests</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/UDIUser.html">UDIUser</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@kUdiniProductionEnvironment">kUdiniProductionEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@kUdiniStagingEnvironment">kUdiniStagingEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@kUdiniTestEnvironment">kUdiniTestEnvironment</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/UDIDeviceState.html">UDIDeviceState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/UDIFeedbackDelegate.html">UDIFeedbackDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <h1 id='udini-sdk' class='heading'>Udini SDK</h1>
+<h2 id='features' class='heading'>Features</h2>
+
+<ul>
+<li>[x] BLE Device Scanning, connecting, Action execution</li>
+<li>[x] Udini api integration: Data fetching, user management, remote actions</li>
+<li>[x] Secure emory &amp; disk persistence</li>
+<li>[x] RSA asymmetric security</li>
+<li>[x] OAuth2 authentication</li>
+<li>[x] Notification support</li>
+</ul>
+<h2 id='requirements' class='heading'>Requirements</h2>
+
+<ul>
+<li>iOS 10.0+</li>
+<li>Xcode 10.2+</li>
+</ul>
+<h2 id='installation' class='heading'>Installation</h2>
+<h3 id='manually' class='heading'>Manually</h3>
+
+<p>You can integrate UdiniSDK into your project manually.</p>
+<h4 id='embedded-framework' class='heading'>Embedded Framework</h4>
+
+<p>Add the UdiniSDK.framework to the embedded binaries section of your app target</p>
+
+<p><em>Attention</em>: The Debug variant is a fat framework containing device and simulator architectures. For app submission you must make sure to include the Release variant of the UdiniSDK.framework which includes only device architectures since Apple is rejecting apps submitted with simulator slices.</p>
+<h2 id='getting-started' class='heading'>Getting Started</h2>
+
+<p>Configure the UdiniOptions, with a callbackScheme, environment, clientId &amp; clientSecret</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">options</span> <span class="o">=</span> <span class="kt">UdiniOptions</span><span class="p">(</span><span class="nv">callbackScheme</span><span class="p">:</span> <span class="s">"udini://"</span><span class="p">)</span>
+<span class="n">options</span><span class="o">.</span><span class="n">environment</span> <span class="o">=</span> <span class="n">kUdiniProductionEnvironment</span>
+<span class="n">options</span><span class="o">.</span><span class="n">clientId</span> <span class="o">=</span> <span class="s">"foo"</span>
+<span class="n">options</span><span class="o">.</span><span class="n">clientSecret</span> <span class="o">=</span> <span class="s">"bar"</span>
+<span class="kt">UdiniApp</span><span class="o">.</span><span class="nf">configure</span><span class="p">(</span><span class="nv">options</span><span class="p">:</span> <span class="n">options</span><span class="p">)</span>
+</code></pre>
+
+<p>Start a user session</p>
+<pre class="highlight swift"><code><span class="kt">UdiniServiceRequests</span><span class="o">.</span><span class="nf">login</span><span class="p">(</span><span class="nv">from</span><span class="p">:</span> <span class="n">viewController</span><span class="p">,</span>
+                           <span class="nv">completionHandler</span><span class="p">:</span> <span class="p">{</span> <span class="p">(</span><span class="n">user</span><span class="p">,</span> <span class="n">error</span><span class="p">)</span> <span class="k">in</span>
+                            <span class="c1">// handle completionHandler</span>
+                            <span class="p">})</span>
+</code></pre>
+
+<p>Start the udini services</p>
+<pre class="highlight swift"><code><span class="kt">UdiniApp</span><span class="o">.</span><span class="nf">start</span><span class="p">()</span>
+</code></pre>
+<h2 id='api-documentation' class='heading'>API Documentation</h2>
+
+<p>Browse the <a href="https://udini.eu/sdk/ios/docs">API documentation</a>.</p>
+<h2 id='included-samples' class='heading'>Included Samples</h2>
+
+<p>Sample apps that explore core Udini features are available for iOS, follow the instructions in <a href="Examples/README.md">Examples/README.md</a> to get started.</p>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="https://ixortalk.com" target="_blank" rel="external">IxorTalk</a>. All rights reserved. (Last updated: 2019-08-14)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.10.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

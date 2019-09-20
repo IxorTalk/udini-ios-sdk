@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>UDIApp Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Class/UDIApp" class="dashAnchor"></a>
+    <a title="UDIApp Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">udini 1.0 Docs</a> (30% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">udini Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        UDIApp Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/UDIApp.html">UDIApp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIBadge.html">UDIBadge</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIBeacon.html">UDIBeacon</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDICompany.html">UDICompany</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIConstraint.html">UDIConstraint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIDevice.html">UDIDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIDeviceAction.html">UDIDeviceAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIOptions.html">UDIOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIOrganisation.html">UDIOrganisation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIServiceRequests.html">UDIServiceRequests</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIUser.html">UDIUser</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kUdiniProductionEnvironment">kUdiniProductionEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kUdiniStagingEnvironment">kUdiniStagingEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kUdiniTestEnvironment">kUdiniTestEnvironment</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/UDIDeviceState.html">UDIDeviceState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/UDIFeedbackDelegate.html">UDIFeedbackDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>UDIApp</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code>
+<span class="k">@interface</span> <span class="nc">UDIApp</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>Udini iOS top-level class. Provides facilities to start and stop
+all udini services.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIApp(cm)configureWithOptions:"></a>
+                    <a name="//apple_ref/objc/Method/+configureWithOptions:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIApp(cm)configureWithOptions:">+configureWithOptions:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Configures the default Udini app with the provided options.
+ Raises an exception if any configuration step fails.
+ This method is thread safe.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">configureWithOptions</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/UDIOptions.html">UDIOptions</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">options</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>options</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The Udini application options used to configure the service.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIApp(cm)getOptions"></a>
+                    <a name="//apple_ref/objc/Method/+getOptions" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIApp(cm)getOptions">+getOptions</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the current configured options object</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/UDIOptions.html">UDIOptions</a></span> <span class="o">*</span><span class="p">)</span><span class="n">getOptions</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIApp(cm)start"></a>
+                    <a name="//apple_ref/objc/Method/+start" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIApp(cm)start">+start</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This will start all configured Udini services</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">start</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIApp(cm)stop"></a>
+                    <a name="//apple_ref/objc/Method/+stop" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIApp(cm)stop">+stop</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This will stop all configured Udini services</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">stop</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIApp(cm)isRunning"></a>
+                    <a name="//apple_ref/objc/Method/+isRunning" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIApp(cm)isRunning">+isRunning</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a YES if the udini services are scanning</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">isRunning</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIApp(cm)currentBluetoothState"></a>
+                    <a name="//apple_ref/objc/Method/+currentBluetoothState" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIApp(cm)currentBluetoothState">+currentBluetoothState</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the current state of the core bluetooth manager</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">CBManagerState</span><span class="p">)</span><span class="n">currentBluetoothState</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIApp(cm)application:openURL:options:"></a>
+                    <a name="//apple_ref/objc/Method/+application:openURL:options:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIApp(cm)application:openURL:options:">+application:openURL:options:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this method from the [UIApplicationDelegate application:openURL:options:] method of the AppDelegate for your app. It should be invoked for the proper processing of responses during interaction with the Udini authorization flow.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">application</span><span class="p">:(</span><span class="n">id</span><span class="p">)</span><span class="nv">app</span>
+            <span class="nf">openURL</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSURL</span> <span class="o">*</span><span class="p">)</span><span class="nv">url</span>
+            <span class="nf">options</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">options</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIApp(cm)hasValidUserSession"></a>
+                    <a name="//apple_ref/objc/Method/+hasValidUserSession" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIApp(cm)hasValidUserSession">+hasValidUserSession</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If there is a user session persistent on disk that is valid
+It will return the current User model object.
+If not it will return nil, and a login is needed.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n"><a href="../Classes/UDIUser.html">UDIUser</a></span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="n">hasValidUserSession</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIApp(cm)setFeedbackDelegate:"></a>
+                    <a name="//apple_ref/objc/Method/+setFeedbackDelegate:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIApp(cm)setFeedbackDelegate:">+setFeedbackDelegate:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Add a Delegate that conforms to UDIFeedbackDelegate to receive specific Udini module feedback.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setFeedbackDelegate</span><span class="p">:(</span><span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/UDIFeedbackDelegate.html">UDIFeedbackDelegate</a></span><span class="o">&gt;</span> <span class="n">_Nullable</span><span class="p">)</span><span class="nv">delegate</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIApp(cm)invalidateBadgesCache"></a>
+                    <a name="//apple_ref/objc/Method/+invalidateBadgesCache" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIApp(cm)invalidateBadgesCache">+invalidateBadgesCache</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Invalidates the badge cache</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">invalidateBadgesCache</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIApp(cm)invokeAction:onDevice:forBadge:"></a>
+                    <a name="//apple_ref/objc/Method/+invokeAction:onDevice:forBadge:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIApp(cm)invokeAction:onDevice:forBadge:">+invokeAction:onDevice:forBadge:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Invokes an action on a device for a specific badge.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">invokeAction</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/UDIDeviceAction.html">UDIDeviceAction</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">action</span>
+            <span class="nf">onDevice</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/UDIDevice.html">UDIDevice</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">device</span>
+            <span class="nf">forBadge</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/UDIBadge.html">UDIBadge</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">badge</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>action</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The action you whish to invoke.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>device</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The device where the action should be invoked on.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>badge</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The badge where the device is linked to</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIApp(cm)userSessionDidBecomeInvalid:"></a>
+                    <a name="//apple_ref/objc/Method/+userSessionDidBecomeInvalid:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIApp(cm)userSessionDidBecomeInvalid:">+userSessionDidBecomeInvalid:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set a callback which informs you when a user session becomes invalid.
+This can occur when the authorization tokens are no longer valid.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">userSessionDidBecomeInvalid</span><span class="p">:</span>
+    <span class="p">(</span><span class="n">nonnull</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">))</span><span class="nv">handler</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIApp(cm)notifcationsAuthorizationStatus"></a>
+                    <a name="//apple_ref/objc/Method/+notifcationsAuthorizationStatus" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIApp(cm)notifcationsAuthorizationStatus">+notifcationsAuthorizationStatus</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">UNAuthorizationStatus</span><span class="p">)</span> <span class="n">notifcationsAuthorizationStatus</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIApp(cm)requestNotificationPermissionsWithCompletionHandler:"></a>
+                    <a name="//apple_ref/objc/Method/+requestNotificationPermissionsWithCompletionHandler:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIApp(cm)requestNotificationPermissionsWithCompletionHandler:">+requestNotificationPermissionsWithCompletionHandler:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">requestNotificationPermissionsWithCompletionHandler</span><span class="p">:(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">BOOL</span> <span class="n">granted</span><span class="p">,</span> <span class="n">NSError</span> <span class="o">*</span><span class="n">__nullable</span> <span class="n">error</span><span class="p">))</span><span class="nv">completionHandler</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="https://ixortalk.com" target="_blank" rel="external">IxorTalk</a>. All rights reserved. (Last updated: 2019-08-14)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.10.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

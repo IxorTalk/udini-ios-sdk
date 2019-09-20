@@ -1,0 +1,656 @@
+{
+  "warnings": [
+    {
+      "file": "UdiniSDK/UDIApp.h",
+      "line": 20,
+      "symbol": "UDIFeedbackDelegate",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIApp.h",
+      "line": 194,
+      "symbol": "UDIApp.+notifcationsAuthorizationStatus",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIApp.h",
+      "line": 195,
+      "symbol": "UDIApp.+requestNotificationPermissionsWithCompletionHandler:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIBadge.h",
+      "line": 17,
+      "symbol": "UDIBadge",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIBadge.h",
+      "line": 19,
+      "symbol": "UDIBadge.devices",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIBadge.h",
+      "line": 20,
+      "symbol": "UDIBadge.organisation",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIBadge.h",
+      "line": 22,
+      "symbol": "UDIBadge.nid",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIBadge.h",
+      "line": 23,
+      "symbol": "UDIBadge.name",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIBadge.h",
+      "line": 24,
+      "symbol": "UDIBadge.constraint",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIBadge.h",
+      "line": 25,
+      "symbol": "UDIBadge.userIds",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIBadge.h",
+      "line": 28,
+      "symbol": "UDIBadge.links",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIBadge.h",
+      "line": 29,
+      "symbol": "UDIBadge.image",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIBadge.h",
+      "line": 31,
+      "symbol": "UDIBadge.isValid",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIBadge.h",
+      "line": 33,
+      "symbol": "UDIBadge.+fromJSONDictionary:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIBadge.h",
+      "line": 34,
+      "symbol": "UDIBadge.-toDictionary",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIBeacon.h",
+      "line": 14,
+      "symbol": "UDIBeacon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIBeacon.h",
+      "line": 16,
+      "symbol": "UDIBeacon.serviceUuid",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIBeacon.h",
+      "line": 17,
+      "symbol": "UDIBeacon.major",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIBeacon.h",
+      "line": 18,
+      "symbol": "UDIBeacon.minor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIBeacon.h",
+      "line": 21,
+      "symbol": "UDIBeacon.+fromJSONDictionary:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIBeacon.h",
+      "line": 22,
+      "symbol": "UDIBeacon.-toDictionary",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDICompany.h",
+      "line": 14,
+      "symbol": "UDICompany",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDICompany.h",
+      "line": 16,
+      "symbol": "UDICompany.name",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDICompany.h",
+      "line": 17,
+      "symbol": "UDICompany.logo",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDICompany.h",
+      "line": 18,
+      "symbol": "UDICompany.color",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIConstraint.h",
+      "line": 14,
+      "symbol": "UDIConstraint",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIConstraint.h",
+      "line": 16,
+      "symbol": "UDIConstraint.fromTimestamp",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIConstraint.h",
+      "line": 17,
+      "symbol": "UDIConstraint.toTimestamp",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIConstraint.h",
+      "line": 18,
+      "symbol": "UDIConstraint.proximityRequired",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIConstraint.h",
+      "line": 20,
+      "symbol": "UDIConstraint.+fromJSONDictionary:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIConstraint.h",
+      "line": 21,
+      "symbol": "UDIConstraint.-toDictionary",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 17,
+      "symbol": "UDIDevice",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 23,
+      "symbol": "UDIDevice.bleNumber",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 25,
+      "symbol": "UDIDevice.advertisedServiceUuid",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 26,
+      "symbol": "UDIDevice.uartServiceUuid",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 27,
+      "symbol": "UDIDevice.deviceReadCharacteristicUuid",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 28,
+      "symbol": "UDIDevice.deviceWriteCharacteristicUuid",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 30,
+      "symbol": "UDIDevice.company",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 32,
+      "symbol": "UDIDevice.deviceName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 33,
+      "symbol": "UDIDevice.deviceId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 34,
+      "symbol": "UDIDevice.deviceInformation",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 35,
+      "symbol": "UDIDevice.image",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 37,
+      "symbol": "UDIDevice.beacon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 44,
+      "symbol": "UDIDevice.+fromJSONDictionary:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 45,
+      "symbol": "UDIDevice.-toDictionary",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 51,
+      "symbol": "UDIDeviceState",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 51,
+      "symbol": "UDIDeviceState",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 52,
+      "symbol": "UDIDeviceState.kConnecting",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 53,
+      "symbol": "UDIDeviceState.kConnected",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 54,
+      "symbol": "UDIDeviceState.kDiscoveringServices",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 55,
+      "symbol": "UDIDeviceState.kDiscoveredServices",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 56,
+      "symbol": "UDIDeviceState.kDiscoveringCharacteristics",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 57,
+      "symbol": "UDIDeviceState.kDiscoveredCharacteristics",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 59,
+      "symbol": "UDIDeviceState.kPerformingAction",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 60,
+      "symbol": "UDIDeviceState.kActionPerfomed",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 64,
+      "symbol": "UDIDeviceState.kDisconnecting",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDevice.h",
+      "line": 65,
+      "symbol": "UDIDeviceState.kDisconnected",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDeviceAction.h",
+      "line": 15,
+      "symbol": "UDIDeviceAction",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDeviceAction.h",
+      "line": 17,
+      "symbol": "UDIDeviceAction.nid",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDeviceAction.h",
+      "line": 18,
+      "symbol": "UDIDeviceAction.name",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDeviceAction.h",
+      "line": 19,
+      "symbol": "UDIDeviceAction.label",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDeviceAction.h",
+      "line": 20,
+      "symbol": "UDIDeviceAction.constraint",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDeviceAction.h",
+      "line": 21,
+      "symbol": "UDIDeviceAction.icon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDeviceAction.h",
+      "line": 23,
+      "symbol": "UDIDeviceAction.invokeOnProximity",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDeviceAction.h",
+      "line": 26,
+      "symbol": "UDIDeviceAction.+fromJSONDictionary:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIDeviceAction.h",
+      "line": 27,
+      "symbol": "UDIDeviceAction.-toDictionary",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIOptions.h",
+      "line": 11,
+      "symbol": "kUdiniTestEnvironment",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIOptions.h",
+      "line": 12,
+      "symbol": "kUdiniStagingEnvironment",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIOptions.h",
+      "line": 13,
+      "symbol": "kUdiniProductionEnvironment",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIOrganisation.h",
+      "line": 14,
+      "symbol": "UDIOrganisation",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIOrganisation.h",
+      "line": 16,
+      "symbol": "UDIOrganisation.nid",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIOrganisation.h",
+      "line": 17,
+      "symbol": "UDIOrganisation.name",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIOrganisation.h",
+      "line": 18,
+      "symbol": "UDIOrganisation.fullAddress",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIOrganisation.h",
+      "line": 19,
+      "symbol": "UDIOrganisation.logo",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIOrganisation.h",
+      "line": 20,
+      "symbol": "UDIOrganisation.streetAndNumber",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIOrganisation.h",
+      "line": 21,
+      "symbol": "UDIOrganisation.postalCode",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIOrganisation.h",
+      "line": 22,
+      "symbol": "UDIOrganisation.city",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIOrganisation.h",
+      "line": 23,
+      "symbol": "UDIOrganisation.country",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIOrganisation.h",
+      "line": 25,
+      "symbol": "UDIOrganisation.+fromJSONDictionary:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIOrganisation.h",
+      "line": 26,
+      "symbol": "UDIOrganisation.-toDictionary",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIServiceRequests.h",
+      "line": 16,
+      "symbol": "UDIServiceRequests",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIUser.h",
+      "line": 14,
+      "symbol": "UDIUser",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIUser.h",
+      "line": 16,
+      "symbol": "UDIUser.username",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIUser.h",
+      "line": 17,
+      "symbol": "UDIUser.fullName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIUser.h",
+      "line": 18,
+      "symbol": "UDIUser.firstName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIUser.h",
+      "line": 19,
+      "symbol": "UDIUser.lastName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIUser.h",
+      "line": 20,
+      "symbol": "UDIUser.userId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIUser.h",
+      "line": 21,
+      "symbol": "UDIUser.email",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIUser.h",
+      "line": 22,
+      "symbol": "UDIUser.profilePictureUrl",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIUser.h",
+      "line": 23,
+      "symbol": "UDIUser.langKey",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIUser.h",
+      "line": 27,
+      "symbol": "UDIUser.loginProvider",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIUser.h",
+      "line": 29,
+      "symbol": "UDIUser.-initWithDictionary:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "UdiniSDK/UDIUser.h",
+      "line": 30,
+      "symbol": "UDIUser.-JSONDictionary",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/andyjacobs/projects/ixor/udini/ixortalk.udini.ios.app.default/app/submodules/UdiniSDK"
+}

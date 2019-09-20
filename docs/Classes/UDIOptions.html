@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>UDIOptions Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Class/UDIOptions" class="dashAnchor"></a>
+    <a title="UDIOptions Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">udini 1.0 Docs</a> (30% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">udini Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        UDIOptions Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/UDIApp.html">UDIApp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIBadge.html">UDIBadge</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIBeacon.html">UDIBeacon</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDICompany.html">UDICompany</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIConstraint.html">UDIConstraint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIDevice.html">UDIDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIDeviceAction.html">UDIDeviceAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIOptions.html">UDIOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIOrganisation.html">UDIOrganisation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIServiceRequests.html">UDIServiceRequests</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UDIUser.html">UDIUser</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kUdiniProductionEnvironment">kUdiniProductionEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kUdiniStagingEnvironment">kUdiniStagingEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@kUdiniTestEnvironment">kUdiniTestEnvironment</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/UDIDeviceState.html">UDIDeviceState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/UDIFeedbackDelegate.html">UDIFeedbackDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>UDIOptions</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code>
+<span class="k">@interface</span> <span class="nc">UDIOptions</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>This class provides constant fields for the Udini SDK.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIOptions(im)initWithCallbackScheme:"></a>
+                    <a name="//apple_ref/objc/Method/-initWithCallbackScheme:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIOptions(im)initWithCallbackScheme:">-initWithCallbackScheme:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializes a customized instance of UDIOptions with required fields. Use the mutable properties
+to modify fields for configuring specific services.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">nonnull</span> <span class="n">instancetype</span><span class="p">)</span><span class="nf">initWithCallbackScheme</span><span class="p">:</span>
+    <span class="p">(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">callbackScheme</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIOptions(py)callbackScheme"></a>
+                    <a name="//apple_ref/objc/Property/callbackScheme" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIOptions(py)callbackScheme">callbackScheme</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The bearer authentication token used to authenticate every api call.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">nonnull</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">callbackScheme</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIOptions(py)cacheBadgesOnDisk"></a>
+                    <a name="//apple_ref/objc/Property/cacheBadgesOnDisk" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIOptions(py)cacheBadgesOnDisk">cacheBadgesOnDisk</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A Boolean value indicating whether the badges should be cached persistent on disk.
+The default value of this property is YES. Setting it to NO will only cache the assets in memory.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">getter</span><span class="o">=</span><span class="n">isCacheBadgesOnDisk</span><span class="p">,</span> <span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span>
+    <span class="n">BOOL</span> <span class="n">cacheBadgesOnDisk</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIOptions(py)cacheUserSession"></a>
+                    <a name="//apple_ref/objc/Property/cacheUserSession" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIOptions(py)cacheUserSession">cacheUserSession</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Cache user + usersession as long as the rereshtoken is valid
+The default value of this property is YES. Setting it to NO will only persist the session in memory.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">getter</span><span class="o">=</span><span class="n">isCacheUserSession</span><span class="p">,</span> <span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span>
+    <span class="n">BOOL</span> <span class="n">cacheUserSession</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIOptions(py)deviceCooldownInterval"></a>
+                    <a name="//apple_ref/objc/Property/deviceCooldownInterval" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIOptions(py)deviceCooldownInterval">deviceCooldownInterval</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A timeInterval to define the cooldown time for a device after an action is performed on it.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    UDIFeedbackDelegate:device(device:inCoolDownWithRemainingTime:)
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSTimeInterval</span> <span class="n">deviceCooldownInterval</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIOptions(py)deviceDiscoveryReportDelay"></a>
+                    <a name="//apple_ref/objc/Property/deviceDiscoveryReportDelay" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIOptions(py)deviceDiscoveryReportDelay">deviceDiscoveryReportDelay</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A timeInterval to define the delay between every report of discovered devices</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    UDIFeedbackDelegate:didDiscover(devices:)
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span>
+    <span class="n">NSTimeInterval</span> <span class="n">deviceDiscoveryReportDelay</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIOptions(py)deviceRangeTimeout"></a>
+                    <a name="//apple_ref/objc/Property/deviceRangeTimeout" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIOptions(py)deviceRangeTimeout">deviceRangeTimeout</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A timeInterval to define the timeout when a device is assumed not in range anymore.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    UDIFeedbackDelegate:didLose(device:)
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSTimeInterval</span> <span class="n">deviceRangeTimeout</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIOptions(py)environment"></a>
+                    <a name="//apple_ref/objc/Property/environment" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIOptions(py)environment">environment</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The default environment where the api service is hosted
+The default value is <code><a href="../Constants.html#/c:@kUdiniProductionEnvironment">kUdiniProductionEnvironment</a></code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">_Nonnull</span> <span class="n">environment</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIOptions(py)clientId"></a>
+                    <a name="//apple_ref/objc/Property/clientId" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIOptions(py)clientId">clientId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The clientId that is used for authorization
+The default value is <code>nil</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">_Nonnull</span> <span class="n">clientId</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)UDIOptions(py)clientSecret"></a>
+                    <a name="//apple_ref/objc/Property/clientSecret" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)UDIOptions(py)clientSecret">clientSecret</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The clientSecret that is used for authorization
+The default value is <code>nil</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">_Nonnull</span> <span class="n">clientSecret</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="https://ixortalk.com" target="_blank" rel="external">IxorTalk</a>. All rights reserved. (Last updated: 2019-08-14)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.10.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
