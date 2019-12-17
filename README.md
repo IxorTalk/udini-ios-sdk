@@ -4,7 +4,7 @@
 
 - [x] BLE Device Scanning, connecting, Action execution
 - [x] Udini api integration: Data fetching, user management, remote actions
-- [x] Secure emory & disk persistence
+- [x] Secure memory & disk persistence
 - [x] RSA asymmetric security
 - [x] OAuth2 authentication
 - [x] Notification support
